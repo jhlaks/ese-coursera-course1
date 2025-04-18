@@ -49,6 +49,5 @@ include debug symbols. Compare this main.s with the previous main.s
 
 This will compile and link main.c with specific architecture and libraries that
 are needed for the target processor to run. 
-  $ arm-none-eabi-gcc --specs=nosys.specs -mcpu=cortex-m4 -mthumb -std=c99
-             -Wall -march=armv7e-m main.c
+  $ arm-none-eabi-gcc --specs=nosys.specs -mcpu=cortex-m4 -mthumb -std=c99 -Wall -march=armv7e-m main.c
 
